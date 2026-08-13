@@ -17,8 +17,8 @@
     <div class="vciso-page">
         <nav class="vciso-nav" aria-label="CISO 360 navigation">
             <div class="container vciso-nav__inner">
-                <a class="vciso-nav__brand" href="{{ route('welcome') }}" aria-label="SaudiCISO.net home">
-                    <img src="{{ asset('Images/SaudiCISOLogo.png') }}" alt="SaudiCISO.net">
+                <a class="vciso-nav__brand" href="{{ route('welcome') }}" aria-label="SaudiVirtualCISO.Com home">
+                    <img src="{{ asset('Images/SaudiCISOLogo.png') }}" alt="SaudiVirtualCISO.Com">
                 </a>
 
                 @auth
@@ -50,7 +50,7 @@
                     <div class="vciso-hero__content">
                         <p class="eyebrow">
                             <span class="eyebrow__dot" aria-hidden="true"></span>
-                            SaudiCISO member hub
+                            SaudiVirtualCISO member hub
                         </p>
                         <h1 id="vciso-title">CISO All-in-One <span class="text-accent">Requirements are Here!</span></h1>
                     </div>

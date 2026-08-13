@@ -261,25 +261,25 @@
 
 <main class="login-page">
     <div class="login-shell">
-        <section class="login-brand" aria-label="SaudiCISO platform access">
+        <section class="login-brand" aria-label="SaudiVirtualCISO platform access">
             <img class="login-brand__grid login-brand__grid--top" src="{{ asset('Images/shape/grid-01.svg') }}" alt="">
             <img class="login-brand__grid login-brand__grid--bottom" src="{{ asset('Images/shape/grid-01.svg') }}" alt="">
 
             <div class="login-brand__content">
-                <a href="{{ route('welcome') }}" aria-label="SaudiCISO.net home">
-                    <img class="login-brand__logo" src="{{ asset('Images/SaudiCISOLogo-trans.png') }}" alt="SaudiCISO.net">
+                <a href="{{ route('welcome') }}" aria-label="SaudiVirtualCISO.Com home">
+                    <img class="login-brand__logo" src="{{ asset('Images/SaudiCISOLogo-trans.png') }}" alt="SaudiVirtualCISO.Com">
                 </a>
             </div>
         </section>
 
         <section class="login-panel" aria-labelledby="login-title">
             <div class="login-card">
-                <a href="{{ route('welcome') }}" aria-label="SaudiCISO.net home">
-                    <img class="login-card__mobile-logo" src="{{ asset('Images/SaudiCISOLogo.png') }}" alt="SaudiCISO.net">
+                <a href="{{ route('welcome') }}" aria-label="SaudiVirtualCISO.Com home">
+                    <img class="login-card__mobile-logo" src="{{ asset('Images/SaudiCISOLogo.png') }}" alt="SaudiVirtualCISO.Com">
                 </a>
 
                 <div class="login-card__header">
-                    <h2 id="login-title">Access <span class="text-accent">Saudi CISO</span></h2>
+                    <h2 id="login-title">Access <span class="text-accent">Saudi Virtual CISO</span></h2>
                 </div>
 
                 <form method="POST" action="{{ route('login.store') }}" class="login-form"

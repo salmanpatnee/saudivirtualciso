@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SaudiCISO.net - Trusted Cybersecurity Expertise for Saudi Leaders</title>
-    <meta name="description" content="SaudiCISO.net connects Saudi cybersecurity leaders with trusted talent, compliance documents, advisory support, and vendor-neutral product insight.">
+    <title>SaudiVirtualCISO.Com - Trusted Cybersecurity Expertise for Saudi Leaders</title>
+    <meta name="description" content="SaudiVirtualCISO.Com connects Saudi cybersecurity leaders with trusted talent, compliance documents, advisory support, and vendor-neutral product insight.">
     <meta name="color-scheme" content="dark">
     <link rel="stylesheet" href="{{ asset('css/landing.css') }}?v={{ filemtime(public_path('css/landing.css')) }}">
 
@@ -18,8 +18,8 @@
     <div class="landing-page">
         <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
             <div class="container site-nav__inner">
-                <a class="site-nav__brand" href="/" aria-label="SaudiCISO.net home">
-                    <img src="{{ asset('Images/SaudiCISOLogo.png') }}" alt="SaudiCISO.net">
+                <a class="site-nav__brand" href="/" aria-label="SaudiVirtualCISO.Com home">
+                    <img src="{{ asset('Images/SaudiCISOLogo.png') }}" alt="SaudiVirtualCISO.Com">
                 </a>
 
                 <button class="site-nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primaryMenu" aria-label="Open navigation">
@@ -67,7 +67,7 @@
                                 <span class="hero__value-prop-rule" aria-hidden="true"></span>
                                 <p>
                                     <span class="hero__value-prop-question">Still facing cybersecurity challenges?</span>
-                                    Maybe it's because you don't have access to the resources on <strong>SaudiCISO.Net</strong>.
+                                    Maybe it's because you don't have access to the resources on <strong>SaudiVirtualCISO.Com</strong>.
                                 </p>
                             </div>
 
@@ -83,7 +83,7 @@
                                         <p><strong>40% Discount</strong> on Subscription</p>
                                         <span class="hero__offer-deadline">
                                             <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                                            Offer ends July 29, 2026
+                                            Offer ends at the end of the month
                                         </span>
                                     </div>
                                 </div>
@@ -112,7 +112,7 @@
                         <div>
                             <p class="eyebrow">Saudization support</p>
                             <h2 id="saudization-heading">Good <span class="text-accent">News</span></h2>
-                            <p>Enhance your Saudization goals by recruiting certified Saudi cybersecurity professionals through the People Module of SaudiCISO.net.</p>
+                            <p>Enhance your Saudization goals by recruiting certified Saudi cybersecurity professionals through the People Module of SaudiVirtualCISO.Com.</p>
                             <p class="saudization-card__disclaimer">
                                 <span class="saudization-card__disclaimer-label">
                                     <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
@@ -179,9 +179,9 @@
                     </figure>
 
                     <div class="why-content reveal">
-                        <p class="eyebrow">Why SaudiCISO</p>
+                        <p class="eyebrow">Why SaudiVirtualCISO</p>
                         <h2 id="why-heading">Built for leaders accountable for security, resilience, and trust.</h2>
-                        <p>SaudiCiso.net is a subscription-based professional platform created exclusively for CISOs in the KSA.</p>
+                        <p>SaudiVirtualCISO.Com is a subscription-based professional platform created exclusively for CISOs in the KSA.</p>
 
                         <div class="feature-list">
                             <div>
@@ -271,13 +271,13 @@
         <footer class="site-footer site-footer--minimal">
             <div class="container footer-grid footer-grid--minimal">
                 <div class="footer-brand">
-                    <img src="{{ asset('Images/SaudiCISOLogo.png') }}" alt="SaudiCISO.net">
+                    <img src="{{ asset('Images/SaudiCISOLogo.png') }}" alt="SaudiVirtualCISO.Com">
                     <p>Trusted cybersecurity expertise for Saudi CISOs, enterprises, and regulated organizations.</p>
                 </div>
             </div>
             <div class="container footer-bottom">
-                <p>&copy; {{ date('Y') }} SaudiCISO.net. All rights reserved.</p>
-                <p>SaudiCISO.Net is Owned and Managed by GISBA</p>
+                <p>&copy; {{ date('Y') }} SaudiVirtualCISO.Com. All rights reserved.</p>
+                <p>SaudiVirtualCISO.Com is Owned and Managed by GISBA</p>
             </div>
         </footer>
     </div>
@@ -286,7 +286,7 @@
         <div class="modal-content">
             <button type="button" class="close-button" aria-label="Close contact form">&times;</button>
             <p class="eyebrow">Membership inquiry</p>
-            <h2 id="contactModalTitle">Speak with SaudiCISO</h2>
+            <h2 id="contactModalTitle">Speak with SaudiVirtualCISO</h2>
             <p class="modal-intro">Tell us what your security office needs. We will respond with the right membership or advisory path.</p>
             <form id="contactForm">
                 <div class="form-field form-field--half">
